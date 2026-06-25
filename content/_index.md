@@ -1,55 +1,60 @@
 ---
-title: Anjali Chandra — Academic CV
-summary: Personal academic CV site for Anjali Chandra.
+title: Anjali Chandra — Maroon CV Home
 date: 2026-06-25
+summary: "Academic homepage for Anjali Chandra with maroon accent, Roboto font, and hero photo on the right."
 type: landing
 sections:
   - block: hero
     content:
-        eyebrow: Academic CV
+        eyebrow: Welcome
         title: Anjali Chandra
-        text: "Welcome to my personal academic website. Explore my research interests, teaching philosophy, CV, and recognitions."
+        text: "Researcher, educator, and lifelong learner focused on advancing knowledge and fostering curiosity. Explore my work in research and teaching below."
         primary_action:
-          text: Learn more about me
-          url: "#about"
-        secondary_action:
-          text: Browse Research
+          text: See Research
           url: "#research"
+        secondary_action:
+          text: Contact Me
+          url: "#contact"
+        media:
+          type: image
+          src: hero.jpg
+          alt: Portrait of Anjali Chandra
     design:
+        layout: split-right
+        alignment: left
         size: tall
-        alignment: center
+    id: home
   - block: markdown
     content:
         title: About Me
-        text: "I am an academic researcher dedicated to advancing knowledge in my field and fostering the next generation of scholars. My interests span across multiple domains, and I am passionate about both research and teaching."
+        text: "Hello! I'm Anjali Chandra. My academic interests span multiple domains, and I'm passionate about making a positive impact through research and teaching. Learn more about my journey, values, and vision on this site."
     id: about
   - block: collection
     content:
         title: Research
-        text: Highlighted research projects and publications.
-        count: 6
+        text: "Highlighted work, publications, and ongoing projects."
         page_type: publication
+        count: 3
         archive:
           enable: true
           text: See all publications
           link: /publication/
     design:
         view: card
-        columns: 2
     id: research
   - block: markdown
     content:
         title: Teaching
-        text: I am committed to providing a supportive and stimulating learning environment. Here you will find courses I have taught and related teaching resources.
+        text: "Dedicated to providing an engaging, supportive learning environment. Browse courses, resources, and teaching philosophy."
     id: teaching
   - block: markdown
     content:
-        title: Curriculum Vitae
-        text: "For a full list of my academic and professional achievements, please see my detailed [CV](/cv/)."
-    id: cv
+        title: Awards
+        text: Recognition and awards received for academic and research excellence.
+    id: awards
   - block: markdown
     content:
-        title: Awards
-        text: Recognition and awards received throughout my academic career.
-    id: awards
+        title: Contact
+        text: "Feel free to reach out for collaborations or inquiries. [Email me](mailto:your@email.com)."
+    id: contact
 ---
