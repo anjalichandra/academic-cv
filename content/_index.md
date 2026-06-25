@@ -8,7 +8,7 @@ sections:
     content:
         eyebrow: Welcome
         title: Anjali Chandra
-        text: "Researcher, educator, and lifelong learner focused on advancing knowledge and fostering curiosity. Explore my work in research and teaching below."
+        text: "I am an Assistant Professor of Economics at Washington College. My research interests are development economics and applied microeconomics, with a focus on education, health, program evaluation, and early childhood development. I hold a Ph.D. in Economics from Fordham University, New York."
         primary_action:
           text: See Research
           url: "#research"
@@ -17,44 +17,11 @@ sections:
           url: "#contact"
         media:
           type: image
-          src: hero.jpg
-          alt: Portrait of Anjali Chandra
+          src: assets/media/hero.jpg
+          alt:
     design:
         layout: split-right
         alignment: left
         size: tall
     id: home
-  - block: markdown
-    content:
-        title: About Me
-        text: "Hello! I'm Anjali Chandra. My academic interests span multiple domains, and I'm passionate about making a positive impact through research and teaching. Learn more about my journey, values, and vision on this site."
-    id: about
-  - block: collection
-    content:
-        title: Research
-        text: "Highlighted work, publications, and ongoing projects."
-        page_type: publication
-        count: 3
-        archive:
-          enable: true
-          text: See all publications
-          link: /publication/
-    design:
-        view: card
-    id: research
-  - block: markdown
-    content:
-        title: Teaching
-        text: "Dedicated to providing an engaging, supportive learning environment. Browse courses, resources, and teaching philosophy."
-    id: teaching
-  - block: markdown
-    content:
-        title: Awards
-        text: Recognition and awards received for academic and research excellence.
-    id: awards
-  - block: markdown
-    content:
-        title: Contact
-        text: "Feel free to reach out for collaborations or inquiries. [Email me](mailto:your@email.com)."
-    id: contact
 ---
