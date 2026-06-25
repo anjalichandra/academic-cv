@@ -23,5 +23,4 @@ sections:
         layout: split-right
         alignment: left
         size: tall
-    id: home
----
+    
